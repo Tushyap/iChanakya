@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lato:wght@300;400&family=PT+Sans&family=Roboto:wght@300;400;500;700;900&family=Taviraj:wght@100;200;300;400;500&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Taviraj', serif;
+    /* background: #f5f5f7; */
+}
+
+
+.topBanner {
+
+    height: 53px;
+    background: #DE7F59;
+}
+
+.topLogo {
+    display: block;
+    height: 52px;
+    width: 52px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.topBannerHeading {
+    width: 176px;
+    height: 52px;
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.40);
+    font-family: 'Taviraj', serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBanner {
+    background: #5D9C5D;
+}
+
+.navButton {
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    background: #fff;
+    color: #000;
+    margin-left: 15px;
+    margin-right: 10px;
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.aboutImage {
+    display: block;
+    width: 75%;
+    /* height: 300px; */
+    object-fit: cover;
+    object-position: center;
+}
+
+.serviceImage {
+    display: block;
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* .aboutContent {
+    padding: 20px 0px; */
+    /* background: #f5f5f7;
+} */
+
+.aboutContent h2 {
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.aboutContent h3 {
+    font-size: 20px;
+}
+
+.aboutContent p {
+    font-size: 18px;
+    color: #555;
+
+}
+
+.small {
+    font-size: 18px;
+    color: #666;
+    font-family: 'Taviraj', serif;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.mainButton {
+    display: flex;
+    width: 258px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border-radius: 80px;
+    border: 2px solid #000;
+    background: #E1E1E0;
+    box-shadow: 4px 4px 3px 0px #aaa;
+    align-items: center;
+    justify-content: center;
+}
+
+.subButton {
+    display: flex;
+    width: 240px;
+    height: 72px;
+    border-radius: 80px;
+    border: 2px solid #000;
+    background: #CC5525;
+    align-items: center;
+    justify-content: center;
+}
+
+.subAnchorButton a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #E1E1E0;
+    font-family: 'Taviraj', serif;
+    font-weight: 500;
+}
+
+.subAnchorButton a:hover {
+    color: #444;
+}
+
+.ourServicesContent p {
+    font-size: 18px;
+    color: #555;
+    margin-left: 35px;
+    padding-left: 20px;
+}
+
+.milestonesGraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.milestonesGraph img {
+    display: block;
+    width: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact{
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    margin-left: 45px;
+    padding-left: 20px; 
+}
+
+.blockquote-custom {
+    position: relative;
+    
+  }
+  
+  .blockquote-custom-icon img{
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -70px;
+    right: 55px;
+  }
+
+  .cardBody{
+    border-radius: 40px;
+    border: 3px solid black;
+  }
+/* ########################## media queries ######################## */
+
+@media(max-width: 992px) {
+    .navButton {
+        width: 160px;
+        margin-bottom: 5px;
+        font-family: 'Taviraj', serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+
+    }
+
+    .mainButton {
+        margin-left: 0px;
+    }
+
+    .ourServicesContent p {
+        margin-left: 0px;
+
+    }
+
+    .milestonesGraph img {
+        width: 400px;
+    }
+
+    .contact{
+        margin-left: 2px; 
+    }
+}
